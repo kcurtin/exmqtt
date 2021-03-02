@@ -30,7 +30,7 @@ defmodule Exmqtt.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:gen_state_machine, "~> 2.1"},
+      {:gen_state_machine, "~> 2.1 or ~> 3.0"},
       {:gun, "~> 1.3.0"},
     ]
   end
